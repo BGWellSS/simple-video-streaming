@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Streaming</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Streaming de Vídeos</h1>
+    <div class="video-container">
+      <video id="videoPlayer" controls>
+        <source src="assets/videos/video1.mp4" type="video/mp4">
+        Seu navegador não suporta HTML5 video.
+      </video>
+    </div>
+    <div class="video-buttons">
+      <button onclick="playVideo('assets/videos/video1.mp4')">Vídeo 1</button>
+      <button onclick="playVideo('assets/videos/video2.mp4')">Vídeo 2</button>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
